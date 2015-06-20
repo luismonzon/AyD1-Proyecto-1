@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="703" height="532" text="Browser&#xA;http://..." measuredWidth="703" measuredHeight="532" background="#cfe2f3" alpha="3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="2" y="52" width="703" height="44" text="{placeholder},Seguridad{desc}, Inventario{desc}, Compras{desc}, Ventas{desc},  Ofertas{desc},  Reportes{desc}, Logout{assets/fi-power}" measuredWidth="703" measuredHeight="44" layoutParams="anchor-left|anchor-top" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="40" height="44" text="{placeholder}"/>
+    <items x="40" y="0" width="103" height="44" text="Seguridad{desc}"/>
+    <items x="143" y="0" width="104" height="44" text="Inventario{desc}"/>
+    <items x="247" y="0" width="95" height="44" text="Compras{desc}"/>
+    <items x="342" y="0" width="82" height="44" text="Ventas{desc}"/>
+    <items x="424" y="0" width="89" height="44" text=" Ofertas{desc}"/>
+    <items x="513" y="0" width="99" height="44" text=" Reportes{desc}"/>
+    <items x="612" y="0" width="91" height="44" text="Logout{assets/fi-power}"/>
+  </widgets>
+  <widgets xsi:type="model:Accordion" id="3" y="95" width="111" height="437" text="Roles&#xA;- Opcion 1&#xA;- Opcion 2 &#xA;Usuarios&#xA;-Mantenimiento&#xA;-Sub-Item 1.2&#xA;-Sub-Item 1.3&#xA;Bitácora" measuredWidth="111" measuredHeight="437" selection="0">
+    <items x="0" y="2" width="111" height="25" text="Roles"/>
+    <items x="0" y="27" width="111" height="25" text="- Opcion 1"/>
+    <items x="0" y="52" width="111" height="25" text="- Opcion 2 "/>
+    <items x="0" y="387" width="111" height="25" text="Usuarios"/>
+    <items x="0" y="412" width="0" height="0" text="-Mantenimiento"/>
+    <items x="0" y="412" width="0" height="0" text="-Sub-Item 1.2"/>
+    <items x="0" y="412" width="0" height="0" text="-Sub-Item 1.3"/>
+    <items x="0" y="412" width="111" height="25" text="Bitácora"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="4" x="432" y="125" height="377" text="[-] Seguridad v&#xA;-[-] Roles v&#xA;--[x] Acceder&#xA;--[x] Crear&#xA;--[] Eliminar&#xA;--[] Actualizar&#xA;-[x] Usuarios v&#xA;--[x] Acceder&#xA;--[x] Crear&#xA;--[x] Eliminar&#xA;--[x] Actualizar&#xA;-[] Bitacora >&#xA;[] Inventario >&#xA;[x] Compras >&#xA;[] Ventas >&#xA;[-] Ofertas >&#xA;[] Reportes >" measuredWidth="126" measuredHeight="377">
+    <items x="0" y="5" width="126" height="21" text="[-] Seguridad v"/>
+    <items x="0" y="26" width="126" height="21" text="-[-] Roles v"/>
+    <items x="0" y="47" width="126" height="21" text="--[x] Acceder"/>
+    <items x="0" y="68" width="126" height="21" text="--[x] Crear"/>
+    <items x="0" y="89" width="126" height="21" text="--[] Eliminar"/>
+    <items x="0" y="110" width="126" height="21" text="--[] Actualizar"/>
+    <items x="0" y="131" width="126" height="21" text="-[x] Usuarios v"/>
+    <items x="0" y="152" width="126" height="21" text="--[x] Acceder"/>
+    <items x="0" y="173" width="126" height="21" text="--[x] Crear"/>
+    <items x="0" y="194" width="126" height="21" text="--[x] Eliminar"/>
+    <items x="0" y="215" width="126" height="21" text="--[x] Actualizar"/>
+    <items x="0" y="236" width="126" height="21" text="-[] Bitacora >"/>
+    <items x="0" y="257" width="126" height="21" text="[] Inventario >"/>
+    <items x="0" y="278" width="126" height="21" text="[x] Compras >"/>
+    <items x="0" y="299" width="126" height="21" text="[] Ventas >"/>
+    <items x="0" y="320" width="126" height="21" text="[-] Ofertas >"/>
+    <items x="0" y="341" width="126" height="21" text="[] Reportes >"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="5" x="128" y="168" width="283" height="138" text="Nombre, Descripcion&#xA;Administrador, Encargado de \nadministrar sitio&#xA;Gerente de ventas, Encargado de \ngestionar ventas&#xA;Gerente publicitario, Encargado de \nla ofertas" measuredWidth="283" measuredHeight="138" textAlignment="Center" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="6" x="118" y="95" text="Home,Seguridad,Roles, Asignar Permisos" measuredWidth="277" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="33" height="23" text="Home"/>
+    <items x="53" y="0" width="56" height="23" text="Seguridad"/>
+    <items x="129" y="0" width="31" height="23" text="Roles"/>
+    <items x="180" y="0" width="94" height="23" text="Asignar Permisos"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="128" y="130" width="129" text="Guardar Cambios" measuredWidth="129" measuredHeight="25" link="Roles.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="264" y="130" width="105" text="Cancelar" measuredWidth="105" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
