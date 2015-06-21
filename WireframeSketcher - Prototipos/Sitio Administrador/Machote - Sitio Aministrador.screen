@@ -25,11 +25,11 @@
     <items x="0" y="412" width="111" height="25" text="Bitácora"/>
     <font/>
   </widgets>
-  <widgets xsi:type="model:Breadcrumbs" id="4" x="118" y="95" text="Home,Seguridad,Roles" measuredWidth="163" measuredHeight="23">
+  <widgets xsi:type="model:Breadcrumbs" id="5" x="118" y="95" text="{home},Seguridad,Bitacora" measuredWidth="163" measuredHeight="24">
     <font/>
-    <items x="0" y="0" width="33" height="23" text="Home"/>
-    <items x="53" y="0" width="56" height="23" text="Seguridad"/>
-    <items x="129" y="0" width="31" height="23" text="Roles"/>
+    <items x="0" y="0" width="17" height="24" text="{home}"/>
+    <items x="37" y="0" width="56" height="24" text="Seguridad"/>
+    <items x="113" y="0" width="47" height="24" text="Bitacora"/>
   </widgets>
   <hRuler/>
   <vRuler/>

@@ -4,7 +4,7 @@
     <screen xsi:type="model:WidgetGroup" href="../../../assets/Foundation/Navigation.screen#Top%20Bar"/>
     <overrides>
       <widgetChanges xsi:type="o:Insert" newIndex="4">
-        <object xsi:type="model:Table" x="118" y="456" width="569" text="{previous} Page 1 {skip}, Item 1 de 100, Mostrar 5 {desc} items por pagina&#xA;" alternative="#eeeeee">
+        <object xsi:type="model:Table" x="118" y="456" width="569" text="{previous} Page 1 {skip}, Item 1 de 100, Mostrar 5 {desc} items por pagina&#xA;" textAlignment="Center" alternative="#eeeeee">
           <font/>
         </object>
       </widgetChanges>
@@ -82,6 +82,12 @@
           <object xsi:type="model:Item" text="{placeholder}"/>
         </itemChanges>
       </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="603" y="305" width="70" measuredWidth="70" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="../../../assets/Foundation/Callouts%20&amp;%20Prompts.screen#Tooltip"/>
+    <overrides>
+      <widgets ref="95" width="70" height="48" text="Asignar permisos"/>
     </overrides>
   </widgets>
   <hRuler/>

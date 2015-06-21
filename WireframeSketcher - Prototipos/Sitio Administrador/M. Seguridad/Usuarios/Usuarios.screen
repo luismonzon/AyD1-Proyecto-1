@@ -14,12 +14,10 @@
     <items x="513" y="0" width="99" height="44" text=" Reportes{desc}"/>
     <items x="612" y="0" width="91" height="44" text="Logout{assets/fi-power}"/>
   </widgets>
-  <widgets xsi:type="model:Accordion" id="3" y="95" width="111" height="437" text="Roles&#xA;Usuarios&#xA;-Mantenimiento&#xA;-Sub-Item 1.2&#xA;-Sub-Item 1.3&#xA;Bitácora" measuredWidth="111" measuredHeight="437" selection="0">
-    <items x="0" y="2" width="111" height="25" text="Roles"/>
-    <items x="0" y="387" width="111" height="25" text="Usuarios"/>
-    <items x="0" y="412" width="0" height="0" text="-Mantenimiento"/>
-    <items x="0" y="412" width="0" height="0" text="-Sub-Item 1.2"/>
-    <items x="0" y="412" width="0" height="0" text="-Sub-Item 1.3"/>
+  <widgets xsi:type="model:Accordion" id="3" y="95" width="111" height="437" text="Usuarios&#xA;-Mantenimiento&#xA;Roles&#xA;Bitácora" measuredWidth="111" measuredHeight="437" selection="0">
+    <items x="0" y="2" width="111" height="25" text="Usuarios"/>
+    <items x="0" y="27" width="111" height="25" text="-Mantenimiento"/>
+    <items x="0" y="387" width="111" height="25" text="Roles"/>
     <items x="0" y="412" width="111" height="25" text="Bitácora"/>
     <font/>
   </widgets>
@@ -29,25 +27,31 @@
     <items x="53" y="0" width="56" height="23" text="Seguridad"/>
     <items x="129" y="0" width="47" height="23" text="Usuarios"/>
   </widgets>
-  <widgets xsi:type="model:Table" id="5" x="118" y="179" width="569" height="278" text="[], Nombre {filter}, Apellido {filter}, Fecha de nacimiento, Acciones&#xA;[],Jose, Perez, 2/2/1985 {calendar2}, [{assets/fi-minus-circle}]&#xA;[],Juan, Garcia, 5/3/1999 {calendar2},[{assets/fi-minus-circle}]&#xA;[],Ricardo, Armas, 6/12/1990 {calendar2}, [{assets/fi-minus-circle}]" measuredWidth="569" measuredHeight="278" textAlignment="Center" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="5" x="118" y="220" width="569" height="278" text="[], Email, Nombre {filter}, Apellido {filter}, Fecha de nacimiento, [] Habilitar, Acciones&#xA;[], [jose@correo.com], Jose, Perez, 2/2/1985 {calendar2}, [x], [{assets/fi-minus-circle}]&#xA;[], [juan@correo.com], Juan, Garcia, 5/3/1999 {calendar2}, [x], [{assets/fi-minus-circle}]&#xA;[], [ricardo@correo.com], Ricardo, Armas, 6/12/1990 {calendar2}, [], [{assets/fi-minus-circle}]" measuredWidth="569" measuredHeight="278" textAlignment="Center" alternative="#eeeeee">
     <font/>
   </widgets>
   <widgets xsi:type="model:SearchField" id="6" x="126" y="139" width="121" text="Nombre" measuredWidth="121" measuredHeight="24">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="7" x="465" y="138" text="Eliminar Usuarios(s)" measuredWidth="126" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="7" x="200" y="192" text="Eliminar Usuarios(s)" measuredWidth="126" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="8" x="601" y="138" text="Asignar Roles" measuredWidth="94" measuredHeight="25" link="../Mantenimiento%20de%20Roles/Asignar%20Permisos.screen">
+  <widgets xsi:type="model:Button" id="8" x="339" y="192" text="Asignar Roles" measuredWidth="94" measuredHeight="25" link="../Roles/Asignar%20Permisos.screen">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="9" x="400" y="138" text="Nuevo" measuredWidth="56" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="9" x="118" y="192" text="Nuevo {add}" measuredWidth="75" measuredHeight="26">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="10" x="118" y="456" width="569" text="{previous} Page 1 {skip}, Item 1 de 100, Mostrar 5 {desc} items por pagina&#xA;" measuredWidth="569" measuredHeight="26" alternative="#eeeeee">
+  <widgets xsi:type="model:Table" id="10" x="118" y="497" width="569" text="{previous} Page 1 {skip}, Item 1 de 100, Mostrar 5 {desc} items por pagina&#xA;" measuredWidth="569" measuredHeight="26" textAlignment="Center" alternative="#eeeeee">
     <font/>
   </widgets>
   <widgets xsi:type="model:SearchField" id="14" x="264" y="139" width="121" text="Apellido" measuredWidth="121" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="15" x="444" y="192" text="Habilitar {circled-check}" measuredWidth="85" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="544" y="192" text="Deshabilitar {circled-mul}" measuredWidth="105" measuredHeight="26">
     <font/>
   </widgets>
   <hRuler/>

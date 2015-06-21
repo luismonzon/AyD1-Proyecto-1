@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="2" measuredWidth="703" measuredHeight="532">
+    <widgets xsi:type="model:Browser" id="3" width="703" height="532" text="Browser&#xA;http://..." measuredWidth="703" measuredHeight="532" background="#cfe2f3" alpha="3">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:ButtonBar" id="4" y="52" width="703" height="44" text="{placeholder},Seguridad{desc}, Inventario{desc}, Compras{desc}, Ventas{desc},  Ofertas{desc},  Reportes{desc}, Logout{assets/fi-power}" measuredWidth="703" measuredHeight="44" layoutParams="anchor-left|anchor-top" background="#333333">
+      <font size="13px"/>
+      <items x="0" y="0" width="40" height="44" text="{placeholder}"/>
+      <items x="40" y="0" width="103" height="44" text="Seguridad{desc}"/>
+      <items x="143" y="0" width="104" height="44" text="Inventario{desc}"/>
+      <items x="247" y="0" width="95" height="44" text="Compras{desc}"/>
+      <items x="342" y="0" width="82" height="44" text="Ventas{desc}"/>
+      <items x="424" y="0" width="89" height="44" text=" Ofertas{desc}"/>
+      <items x="513" y="0" width="99" height="44" text=" Reportes{desc}"/>
+      <items x="612" y="0" width="91" height="44" text="Logout{assets/fi-power}"/>
+    </widgets>
+    <widgets xsi:type="model:Accordion" id="5" y="95" width="111" height="437" text="Roles&#xA;Usuarios&#xA;-Mantenimiento&#xA;-Sub-Item 1.2&#xA;-Sub-Item 1.3&#xA;Bitácora" measuredWidth="111" measuredHeight="437" selection="0">
+      <items x="0" y="2" width="111" height="25" text="Roles"/>
+      <items x="0" y="387" width="111" height="25" text="Usuarios"/>
+      <items x="0" y="412" width="0" height="0" text="-Mantenimiento"/>
+      <items x="0" y="412" width="0" height="0" text="-Sub-Item 1.2"/>
+      <items x="0" y="412" width="0" height="0" text="-Sub-Item 1.3"/>
+      <items x="0" y="412" width="111" height="25" text="Bitácora"/>
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Breadcrumbs" id="6" x="118" y="95" text="{home},Seguridad,Bitacora" measuredWidth="163" measuredHeight="24">
+      <font/>
+      <items x="0" y="0" width="17" height="24" text="{home}"/>
+      <items x="37" y="0" width="56" height="24" text="Seguridad"/>
+      <items x="113" y="0" width="47" height="24" text="Bitacora"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="7" x="118" y="141" measuredWidth="575" measuredHeight="331">
+    <widgets xsi:type="model:Table" id="8" y="83" width="575" height="248" text="Usuario {filter}, Tabla {filter}, Fecha, Operacion {filter}, Datos afectados&#xA;Jose Perez, Producto, 12/12/2015, Insertar, Prod1 \, Prod2 &#xA;Juan Garcia, Bodega, 30/12/2015, Actualizar, Bodega1&#xA;Ana Lucia Vallejo, Usuario, 25/01/2015, Insertar, Pablo Sanchez &#xA;.,.,.,.,.&#xA;.,.,.,.,.&#xA;.,.,.,.,." measuredWidth="575" measuredHeight="248" textAlignment="Center" alternative="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:DateField" id="9" x="90" width="121" text="  /  /  " measuredWidth="121" measuredHeight="23"/>
+    <widgets xsi:type="model:Label" id="10" x="9" text="Fecha: entre" measuredWidth="75" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="11" x="218" text="y" measuredWidth="12" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:DateField" id="12" x="229" width="121" text="  /  /  " measuredWidth="121" measuredHeight="23"/>
+    <widgets xsi:type="model:Label" id="13" x="9" y="35" text="Usuario" measuredWidth="47" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="14" x="90" y="35" text="Selecionar un usuario" measuredWidth="144" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Table" id="15" x="118" y="471" width="575" text="{previous} Page 1 {skip}, Item 1 de 100, Mostrar 5 {desc} items por pagina&#xA;" measuredWidth="575" measuredHeight="26" textAlignment="Center" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
