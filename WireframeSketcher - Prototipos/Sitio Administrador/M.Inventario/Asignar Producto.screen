@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" width="703" height="532" text="Browser&#xA;http://..." measuredWidth="703" measuredHeight="532" background="#cfe2f3" alpha="3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="2" y="52" width="703" height="44" text="{placeholder},Seguridad{desc}, Inventario{desc}, Compras{desc}, Ventas{desc},  Ofertas{desc},  Reportes{desc}, Logout{assets/fi-power}" measuredWidth="703" measuredHeight="44" layoutParams="anchor-left|anchor-top" background="#333333">
+    <font size="13px"/>
+    <items x="0" y="0" width="40" height="44" text="{placeholder}"/>
+    <items x="40" y="0" width="104" height="44" text="Seguridad{desc}"/>
+    <items x="144" y="0" width="101" height="44" text="Inventario{desc}"/>
+    <items x="245" y="0" width="96" height="44" text="Compras{desc}"/>
+    <items x="341" y="0" width="81" height="44" text="Ventas{desc}"/>
+    <items x="422" y="0" width="90" height="44" text=" Ofertas{desc}"/>
+    <items x="512" y="0" width="101" height="44" text=" Reportes{desc}"/>
+    <items x="613" y="0" width="90" height="44" text="Logout{assets/fi-power}"/>
+  </widgets>
+  <widgets xsi:type="model:Accordion" id="3" y="95" width="111" height="437" text="Bodega&#xA;Pais&#xA;Region&#xA;-Mantenimiento&#xA;-Sub-Item 1.2&#xA;-Sub-Item 1.3&#xA;Ciudad&#xA;Productos" measuredWidth="111" measuredHeight="437" selection="0">
+    <items x="0" y="2" width="111" height="25" text="Bodega"/>
+    <items x="0" y="337" width="111" height="25" text="Pais"/>
+    <items x="0" y="362" width="111" height="25" text="Region"/>
+    <items x="0" y="387" width="0" height="0" text="-Mantenimiento"/>
+    <items x="0" y="387" width="0" height="0" text="-Sub-Item 1.2"/>
+    <items x="0" y="387" width="0" height="0" text="-Sub-Item 1.3"/>
+    <items x="0" y="387" width="111" height="25" text="Ciudad"/>
+    <items x="0" y="412" width="111" height="25" text="Productos"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Breadcrumbs" id="6" x="118" y="95" text="Home,Inventario,Bodega, Asignar Productos" measuredWidth="290" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="34" height="23" text="Home"/>
+    <items x="54" y="0" width="54" height="23" text="Inventario"/>
+    <items x="128" y="0" width="41" height="23" text="Bodega"/>
+    <items x="189" y="0" width="98" height="23" text="Asignar Productos"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="360" y="164" width="129" text="Guardar Cambios" measuredWidth="129" measuredHeight="25" link="Bodega.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="504" y="164" width="105" text="Cancelar" measuredWidth="105" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="9" x="152" y="199" width="465" height="230" text="[],Codigo , Nombre {filter}, (align:center).Asignado,Cantidad&#xA;[],1,Producto 1,[],0&#xA;[],2,Producto 2,[x],10&#xA;[],3,Producto 3,[],0" measuredWidth="465" measuredHeight="230" textAlignment="Center" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="10" x="152" y="428" width="465" text="{previous} Page 1 {skip}, Item 1 de 100, Mostrar 5 {desc} items por pagina&#xA;" measuredWidth="465" measuredHeight="26" textAlignment="Center" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="11" x="152" y="164" width="121" text="Nombre" measuredWidth="121" measuredHeight="24">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
